@@ -11,7 +11,8 @@ const Contenedor = styled.div`
 const Imagen = styled.img`
   max-width: 400px;
   width: 80%;
-  
+  margin: 100px auto 0 auto;
+  display: block;
 `
 
 const Heading = styled.h1`
@@ -23,6 +24,10 @@ function App() {
 
   return (
     <Contenedor>
+      <Imagen
+        src={ImagenCripto}
+        alt="Imagen Criptomonedas"
+      /> 
       <Heading>Desde App</Heading>
     </Contenedor>
 
