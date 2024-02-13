@@ -1,9 +1,31 @@
 import {useState} from 'react'
+import styled from '@emotion/styled'
+import ImagenCripto from './img/imagen-criptos.png'
+
+const Contenedor = styled.div`
+  max-width: 900px;
+  margin: 0 auto;
+  width: 90%;
+`
+
+const Imagen = styled.img`
+  max-width: 400px;
+  width: 80%;
+  
+`
+
+const Heading = styled.h1`
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+`
 
 function App() {
 
   return (
-    <h1>Desde App</h1>
+    <Contenedor>
+      <Heading>Desde App</Heading>
+    </Contenedor>
+
 
   )
 }
