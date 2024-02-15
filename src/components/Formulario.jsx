@@ -43,6 +43,8 @@ const Formulario = () => {
 
   return (
     <form>
+      <SelectMonedas />
+      
         <Division>
             <label htmlFor="moneda">Elige tu moneda</label>
             <Seleccion name="moneda" id="moneda">
