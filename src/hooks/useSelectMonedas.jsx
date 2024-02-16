@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 
-const Label =styled.label`
+const Label = styled.label`
     font-family: 'Bebas Neue', cursive;
     color: #FFF;
     text-transform: uppercase;
@@ -12,11 +12,11 @@ const Label =styled.label`
 `
 
 const useSelectMonedas = (label) => {
-    const SelectMonedas = () => {
+    const SelectMonedas = () => (
         <>
             <Label>{label}</Label>
         </>
-    }
+    )
 
     return [SelectMonedas]
 }
