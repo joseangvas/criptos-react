@@ -45,7 +45,6 @@ const Formulario = () => {
       <SelectMonedas />
 
         <Division>
-            <label htmlFor="moneda">Elige tu moneda</label>
             <Seleccion name="moneda" id="moneda">
               <option value="" disabled defaultValue>Elige tu moneda</option>
               <option value="USD">Dolar Estadounidense</option>

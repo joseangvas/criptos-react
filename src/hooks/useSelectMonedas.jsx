@@ -6,8 +6,8 @@ const Label = styled.label`
     color: #FFF;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.4rem;
-    margin-top: 2rem;
+    font-size: 1rem;
+    margin: 0.5rem;
     display: block;
 `
 
