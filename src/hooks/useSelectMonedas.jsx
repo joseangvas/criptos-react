@@ -1,9 +1,9 @@
 import React from 'react'
 
-const useSelectMonedas = () => {
+const useSelectMonedas = (label) => {
     const SelectMonedas = () => {
         <>
-            <label>Select Monedas</label>
+            <label>{label}</label>
         </>
     }
 
