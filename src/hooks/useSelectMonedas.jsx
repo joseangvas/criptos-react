@@ -18,6 +18,12 @@ const useSelectMonedas = (label) => {
         </>
     )
 
+    const SelectCriptomonedas = () => (
+        <>
+            <Label>{label}</Label>
+        </>
+    )
+
     return [SelectMonedas]
 }
 
