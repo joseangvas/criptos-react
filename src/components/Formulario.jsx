@@ -38,7 +38,16 @@ const Seleccion = styled.select`
 
 const Formulario = () => {
 
-  const [SelectMonedas] = useSelectMonedas('Selecciona tu Moneda')
+  const monedas = [
+    {id: 'USD', nombre: 'Dolar Estadounidense'},
+    {id: 'MXN', nombre: 'Peso Mexicano'},
+    {id: 'EUR', nombre: 'Euro'},
+    {id: 'GBP', nombre: 'Libra Esterlina'},
+    {id: 'ARS', nombre: 'Peso Argentino'},
+    {id: 'BS.', nombre: Bolívar Venezolano}
+  ]
+
+  const [SelectMonedas] = useSelectMonedas('Selecciona tu Moneda', monedas)
 
   return (
     <form>
