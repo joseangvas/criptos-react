@@ -39,7 +39,6 @@ const Seleccion = styled.select`
 const Formulario = () => {
 
   const [SelectMonedas] = useSelectMonedas('Selecciona tu Moneda')
-  SelectMonedas()
 
   return (
     <form>
