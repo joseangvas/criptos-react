@@ -39,12 +39,10 @@ const Seleccion = styled.select`
 const Formulario = () => {
 
   const [SelectMonedas] = useSelectMonedas('Selecciona tu Moneda')
-  const [SelectCriptomonedas] = useSelectMonedas('Selecciona tu Criptomoneda')
 
   return (
     <form>
       <SelectMonedas />
-      <SelectCriptomonedas />
 
         <Division>
             <Seleccion name="moneda" id="moneda">
