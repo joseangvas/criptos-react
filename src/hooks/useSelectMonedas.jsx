@@ -18,7 +18,7 @@ const useSelectMonedas = (label, opciones) => {
                 <option value="">- Seleccione Moneda -</option>
                 {opciones.map(opcion => (
                     <option
-                        key={opcion.id} 
+                        key={opcion.id}
                         value={opcion.id}
                         >{opcion.nombre}
                     </option>
