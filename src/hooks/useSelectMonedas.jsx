@@ -5,7 +5,7 @@ const Label = styled.label`
     color: #FFF;
     display: block;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     margin: 15px 0;
 `
@@ -15,7 +15,6 @@ const Select = styled.select`
     font-size: 18px;
     padding: 14px;
     border-radius: 10px;
-    margin-bottom: 20px;
 `
 
 const useSelectMonedas = (label, opciones) => {
